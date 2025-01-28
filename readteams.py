@@ -2,7 +2,7 @@ import csv
 
 teams = {}
 
-with open('participants_2024012293609.csv') as csvfile:
+with open('participants_2025012802507.csv') as csvfile:
     csvreader = csv.DictReader(csvfile)
     for row in csvreader:
         if not row['Age Group'] or not row['Gender'] or not row['Team'] or not row['Status'] == 'Active':
